@@ -7,7 +7,7 @@
 } */
 
 .hero-container {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 124, 77);
   /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fkyh.se%2F&psig=AOvVaw1zFob2_mTrbVXDmEcDa5b1&ust=1612448379174000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCl5bz0ze4CFQAAAAAdAAAAABAJ); */
   height: 100vh;
   width: 100%;
@@ -37,7 +37,7 @@
 }
 
 .hero-container > h1 {
-  color: rgb(223, 82, 30);;
+  color: #fff;
   font-size: 100px;
   margin-top: -100px;
 }
