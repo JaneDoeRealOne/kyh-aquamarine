@@ -1,0 +1,90 @@
+.footer-container {
+  width: 100%;
+  background-color: rgb(28, 27, 27);
+  padding: 20px; 
+}
+
+.footer-wrapper{
+color: #fff;
+padding: 20px;
+display: flex; 
+justify-content: space-between;
+}
+
+.brand-section{
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: center;
+}
+
+.brand-section p {
+  font-size: 18px;
+  padding: 4px;
+}
+
+.social-media-wrapper{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.social-media-icon {
+  width: 80px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.messenger {
+  color: orange;
+}
+
+.social-media-icon:hover {
+  color:rgb(62, 61, 61);
+  transition: 0.3s ease-out;
+}
+
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  align-items: center;
+}
+
+.copy-text{
+  color:rgb(62, 61, 61)
+}
+
+.policy {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px;
+}
+
+@media screen and (max-width: 960px) {
+  .social-media-icon {
+    width: auto;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-wrapper{
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+  .social-media-icon {
+   
+    padding: 25px;
+    font-size: 35px;
+  }
+}

@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Educations from './components/pages/Educations';
 import Faq from './components/pages/Faq';
 import Login from './components/pages/Login';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/faq' component={Faq} />
         <Route path='/login' component={Login} />
       </Switch>
+      <Footer />
     </Router>
   );
 }
