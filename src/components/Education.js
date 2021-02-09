@@ -10,7 +10,7 @@ function Education(props) {
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               src={props.src}
-              alt='Education Image'
+              alt='Education'
               className='cards__item__img'
             />
           </figure>

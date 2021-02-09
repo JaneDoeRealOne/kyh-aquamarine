@@ -1,32 +1,16 @@
-/* img {
-  object-fit: cover; 
-  width: 100%;
-  height: 100%; 
-  position: fixed;
-  z-index: -1;
-} */
-
 .hero-container {
-  background-color: rgb(255, 124, 77);
-  /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fkyh.se%2F&psig=AOvVaw1zFob2_mTrbVXDmEcDa5b1&ust=1612448379174000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCl5bz0ze4CFQAAAAAdAAAAABAJ); */
-  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(239, 110, 110, 0.5), rgba(37, 132, 220, 0.345));
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center; 
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
   object-fit: contain; 
-}video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
+  background-size: cover;
 }
 
 .hero-container {
-  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -36,18 +20,17 @@
   object-fit: contain;
 }
 
-.hero-container > h1 {
+.hero-container h1 {
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
+  font-weight: 500;
 }
 
-.hero-container > p {
+.hero-container p {
   margin-top: 8px;
   color: rgb(31, 31, 31);
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-btns {
@@ -75,7 +58,7 @@
     margin-top: -100px;
   }
 
-  .hero-container > p {
+  .hero-container p {
     font-size: 30px;
   }
 

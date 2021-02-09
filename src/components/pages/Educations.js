@@ -5,7 +5,7 @@ import EducationCards from '../EducationCards';
 export default function Educations() {
   return (
     <>
-      <h1 className='educations'>Educations</h1>
+      <h1 className='educations'>EDUCATIONS</h1>
       <EducationCards />
     </>
   )
