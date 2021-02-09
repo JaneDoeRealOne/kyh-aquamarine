@@ -7,10 +7,11 @@ function Footer() {
   return (
     <div className='footer-container'>
       <div className='footer-wrapper'>
-        <ul className='kyh-brand'>KYH
-          <li className='phone-number' type='number'>076- 885 21 20</li>
-          <li className='email' type='email'>antagning@kyh.se</li>
-        </ul>
+        <div className='brand-section'>
+          KYH
+          <p className='p-tag' name='number' type='number'>076- 885 21 20</p>
+          <p className='p-tag' name='email' type='email'>antagning@kyh.se</p>
+        </div>
         <div className='social-media-wrapper'>
           <Link className='social-media-icon twitter'
             to='/'
@@ -48,9 +49,11 @@ function Footer() {
             <i className='fab fa-facebook-messenger' />
           </Link>
         </div>
-        <ul className='contact'>Kontakt
+        <div className='contact-section'>
+          <p className='contact-text'>Kontakt</p>
           <Link className='policy'>Integritetspolicy</Link>
-        </ul>
+          <span className='copy-text'>&copy; KYH 2021</span>
+        </div>
       </div>
     </div>
   )
