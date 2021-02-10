@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import './Footer.css';
+import Logo from './assets/KYH-logo.png';
 
 function Footer() {
   return (
     <div className='footer-container'>
       <div className='footer-wrapper'>
         <div className='brand-section'>
-          KYH
+          <img src={Logo} className='footer-logo' alt='logotype' />
           <p className='p-tag' name='number' type='number'>076- 885 21 20</p>
           <p className='p-tag' name='email' type='email'>antagning@kyh.se</p>
         </div>
