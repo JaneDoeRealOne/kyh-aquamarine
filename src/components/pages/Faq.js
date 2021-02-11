@@ -1,8 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import FaqList from '../FaqList';
 
 export default function Faq() {
   return (
-    <h1 className='faq'>FAQ</h1>
+    <div className='faq-wrapper'>
+      <h1 className='faq'>Frequently asked questions<br />FAQ</h1>
+      <FaqList />
+    </div>
   )
-}
+};
