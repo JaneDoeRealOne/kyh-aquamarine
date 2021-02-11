@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import '../App.css';
+import '../App.css';
 import { FaqData } from './FaqData';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
@@ -18,7 +18,6 @@ const FaqList = () => {
   return (
     <IconContext.Provider value={{ color: 'orange', size: '25px' }}>
       <div className='accordion-wrapper'>
-        Frequently asked questions
         <div className='accordion-container'>
           {FaqData.map((item, index) => {
             return (
