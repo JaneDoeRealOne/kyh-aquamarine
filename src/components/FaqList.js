@@ -16,7 +16,7 @@ const FaqList = () => {
   }
 
   return (
-    <IconContext.Provider value={{ color: 'orange', size: '25px' }}>
+    <IconContext.Provider value={{ color: '#FF8C00', size: '25px' }}>
       <div className='accordion-wrapper'>
         <div className='accordion-container'>
           {FaqData.map((item, index) => {

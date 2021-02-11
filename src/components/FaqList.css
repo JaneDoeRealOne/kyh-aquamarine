@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
-  height: 80vh;
+  height: 100vh;
   background-color:#f7f7f7;
 }
 
@@ -41,6 +41,11 @@
 
 .dropdown {
   color: #1c1c1c;
-  margin: 2rem;
   font-size: 1.3rem;
+  transition: linear 0.2s ease-out;
+  /* border: 1px solid orange;
+  border-top: 1px dotted #ffcb6c;   */
+  border-bottom: 2px solid #ababab62;
+  /* border: 2px solid #ffcb6c; */
+  padding: 2rem;
 }
