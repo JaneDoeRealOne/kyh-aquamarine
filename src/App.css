@@ -10,12 +10,13 @@
 .faq,
 .login {
   display: flex;
-  height: 50vh;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  background-image: linear-gradient(to bottom, rgba(239, 110, 110, 0.5), rgba(37, 132, 220, 0.345)),
-    url('./components/assets/office.png');
+  background-image: linear-gradient(to bottom, rgba(239, 110, 110, 0.5), rgba(37, 132, 220, 0.345));
+  /* ,
+    url('./components/assets/office.png'); */
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 300;
 }
@@ -27,6 +28,7 @@
   color: #fff;
   font-size: 100px;
   padding: 100px;
+  height: 50vh;
 }
 
 .faq {
