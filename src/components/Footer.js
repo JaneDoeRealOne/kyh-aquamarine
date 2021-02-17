@@ -3,6 +3,14 @@ import { Link } from 'react-router-dom';
 import '../App.css';
 import './Footer.css';
 import Logo from './assets/KYH-logo.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faInstagram,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
+
 
 function Footer() {
   return (
@@ -14,41 +22,26 @@ function Footer() {
           <p className='p-tag' name='email' type='email'>antagning@kyh.se</p>
         </div>
         <div className='social-media-wrapper'>
-          <Link className='social-media-icon twitter'
-            to='/'
-            target='_blank'
-            aria-label='Twitter'
-          >
-            <i className='fab fa-twitter' />
-          </Link>
-          <Link className='social-media-icon facebook'
-            to='/'
-            target='_blank'
-            aria-label='Facebook'
-          >
-            <i className='fab fa-facebook' />
-          </Link>
-          <Link className='social-media-icon instagram'
-            to='/'
-            target='_blank'
-            aria-label='Instagram'
-          >
-            <i className='fab fa-instagram' />
-          </Link>
-          <Link className='social-media-icon linkedin'
-            to='/'
-            target='_blank'
-            aria-label='Linkedin'
-          >
-            <i className='fab fa-linkedin' />
-          </Link>
-          <Link className='social-media-icon messenger'
-            to='/'
-            target='_blank'
-            aria-label='Facebook-Messenger'
-          >
-            <i className='fab fa-facebook-messenger' />
-          </Link>
+
+        <a href="https://www.youtube.com/channel/UCw0LS01KsWOYYRDGjcag_Dg/featured"
+        className="youtube social" target='_blank' rel='noopener noreferrer' >
+        <FontAwesomeIcon icon={faYoutube} size="2x" />
+      </a>
+
+      <a href="https://www.instagram.com/kyh_yrkeshogskola/"
+        className="instagram social" target='_blank' rel='noopener noreferrer' >
+        <FontAwesomeIcon icon={faInstagram} size="2x" />
+      </a>   
+
+      <a href="https://www.facebook.com/KYHyrkeshogskola/"
+        className="facebook social" target='_blank' rel='noopener noreferrer' >
+        <FontAwesomeIcon icon={faFacebook} size="2x" />
+      </a>
+
+      <a href="https://www.linkedin.com/school/kyh/"
+        className="likedin social" target='_blank' rel='noopener noreferrer' >
+        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+      </a>
         </div>
         <div className='contact-section'>
           <p className='contact-text'>Kontakt</p>

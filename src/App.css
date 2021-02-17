@@ -8,7 +8,9 @@
 .home,
 .educations,
 .faq,
-.login {
+.login,
+.landing
+ {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -41,6 +43,15 @@
 }
 
 .login {
+  background-image: url('./components/assets/bg-paper.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(31, 31, 31);;
+  font-size: 100px;
+}
+
+.landing {
   background-image: url('./components/assets/bg-paper.png');
   background-position: center;
   background-size: cover;

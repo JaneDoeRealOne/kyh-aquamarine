@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-// import HeroSection from '../HeroSection';
+//import HeroSection from '../HeroSection';
 
-function Home() {
+export default function Home() {
   return (
     <>
-      {/* the code for Home after user has logged in goes here... */}
+      <h1 className='landing'>Du har blivit antagen till en utbildning på KYH</h1>
+      
+      
     </>
-  );
+  )
 }
-
-export default Home;
