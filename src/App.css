@@ -14,9 +14,8 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  background-image: linear-gradient(to bottom, rgba(239, 110, 110, 0.5), rgba(37, 132, 220, 0.345));
-  /* ,
-    url('./components/assets/office.png'); */
+  background-image: linear-gradient(to bottom, rgba(239, 110, 110, 0.5), rgba(37, 132, 220, 0.345)),
+    url('./components/assets/office.png');
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 300;
 }
@@ -41,10 +40,11 @@
 }
 
 .login {
-  background-image: url('./components/assets/bg-paper.png');
+  /* background-image: url('./components/assets/bg-paper.png'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(31, 31, 31);;
+  color: #fff;
+  /* color: rgb(31, 31, 31);; */
   font-size: 100px;
 }

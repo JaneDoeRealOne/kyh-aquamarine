@@ -1,0 +1,20 @@
+.react-select-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 50px;
+  height: 200px;
+
+}
+
+.dropdown-container {
+  margin: 40px;
+  height: 80vh;
+}
+
+.dropdown-container h1{
+  margin-bottom: 50px;
+}
+
