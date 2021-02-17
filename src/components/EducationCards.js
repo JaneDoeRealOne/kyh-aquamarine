@@ -6,7 +6,7 @@ import './EducationCards.css';
 function EducationCards() {
   return (
     <div className='cards'>
-      <h1>Check out our Education Catalog</h1>
+      <h1>Dessa utbildningar finns hos oss på KYH</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
