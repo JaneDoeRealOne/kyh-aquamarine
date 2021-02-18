@@ -45,7 +45,7 @@ function Footer() {
         </div>
         <div className='contact-section'>
           <p className='contact-text'>Kontakt</p>
-          <Link className='policy'>Integritetspolicy</Link>
+          <Link href='https://kyh.se/integritetspolicy/' className='policy'>Integritetspolicy</Link>
           <span className='copy-text'>&copy; KYH 2021</span>
         </div>
       </div>
