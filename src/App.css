@@ -9,7 +9,8 @@
 .educations,
 .faq,
 .login,
-.landing
+.landing,
+.news
  {
   display: flex;
   height: 90vh;
@@ -58,4 +59,14 @@
   background-repeat: no-repeat;
   color: rgb(31, 31, 31);;
   font-size: 100px;
+}
+
+.home {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  padding: 100px;
+  height: 50vh;
 }
