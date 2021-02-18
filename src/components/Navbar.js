@@ -52,6 +52,7 @@ function Navbar() {
                 UTBILDNING
               </Link>
             </li>
+
             <li className='nav-item'>
               <Link
                 to='/faq'
@@ -59,6 +60,16 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 FAQ
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link
+                to='/news'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                NYHETER
               </Link>
             </li>
 

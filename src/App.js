@@ -8,7 +8,7 @@ import Educations from './components/pages/Educations';
 import Faq from './components/pages/Faq';
 import Login from './components/pages/Login';
 import Footer from './components/Footer';
-
+import News from  './components/pages/News';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         <Route path='/faq' component={Faq} />
         <Route path='/login' component={Login} />
         <Route path='/home' component={Home}/>
+        <Route path='/news' component={News}/>
       </Switch>
       <Footer />
     </Router>
