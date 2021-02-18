@@ -34,13 +34,13 @@ function HomeCards() {
             />
             <Home
               src='images/slack.png'
-              text='Är du intresserad av hur en vanlig dag ser ut för en produktionsledare?'
+              text='Fråga undervisningen för dina klassen Slack Channels och gå med i dem.'
               label='Slack'
               path='/home'
             />
             <Home
               src='images/classroom.jpg'
-              text='Har du stort intresse för uppkopplade smarta prylar? Missa då inte vår utbildning Internet Of Things'
+              text='I Google Classroom hittar du allt studiematerial, nyheter, meddelanden och all annan information.'
               label='Classroom'
               path='/home'
             /> 
@@ -48,19 +48,20 @@ function HomeCards() {
           <ul className='cards__items'>
             <Home
               src='images/meets.jpg'
-              text='Har du stort intresse för uppkopplade smarta prylar? Missa då inte vår utbildning Internet Of Things'
+              text='Google Meets är den plats där du kommer att ha fjärrmöten.'
               label='Google Meet'
               path='/home'
             />
             <Home
               src='images/faq.png'
-              text='Är du intresserad av hur en vanlig dag ser ut för en produktionsledare?'
+              text='Om du har några frågor, se vår FAQ-sida.'
               label='FAQ'
               path='/home'
             />
             <Home
               src='images/csn.png'
-              text='Har du stort intresse för uppkopplade smarta prylar? Missa då inte vår utbildning Internet Of Things'
+              text='Glöm inte att registrera dina poäng i tid till CSN.
+               För andra frågor angående betalningar, kolla deras webbsida.'
               label='CSN'
               path='/home'
             /> 
