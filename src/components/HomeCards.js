@@ -12,19 +12,31 @@ function HomeCards() {
             <Home
               src='images/produktionsledare.jpg'
               text='Är du intresserad av hur en vanlig dag ser ut för en produktionsledare?'
-              label='Produktionsledare'
+              label='Information'
               path='/home'
             />
             <Home
               src='images/iot-dev.jpg'
               text='Har du stort intresse för uppkopplade smarta prylar? Missa då inte vår utbildning Internet Of Things'
-              label='Internet of Things'
+              label='Nyheter'
+              path='/home'
+            />
+             <Home
+              src='images/produktionsledare.jpg'
+              text='Är du intresserad av hur en vanlig dag ser ut för en produktionsledare?'
+              label='Event'
               path='/home'
             />
           </ul>
+        </div>
+       </div>
+
+
+       <div className='cards__container'>
           <br />
           <h1>Användbar information</h1>
           <br />
+       <div className='cards__wrapper'>
           <ul className='cards__items'>
             <Home
               src='images/schoolsoft.jpg'
