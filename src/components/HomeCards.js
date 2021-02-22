@@ -63,7 +63,7 @@ function HomeCards() {
               label='Google Meet'
               path='https://meet.google.com/'
             />
-            <ExternalHome
+            <Home
               src='images/faq.png'
               text='Om du har några frågor, se vår FAQ-sida.'
               label='FAQ'
