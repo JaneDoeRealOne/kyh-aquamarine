@@ -42,6 +42,10 @@ function HomeCards() {
               text='Du kan kontrollera dina betyg genom att logga in på ditt Schoolsoft-konto.'
               label='Schoolsoft'
               path='https://www.schoolsoft.se/'
+<<<<<<< Updated upstream
+=======
+              
+>>>>>>> Stashed changes
             />
             <ExternalHome
               src='images/slack.png'
@@ -53,9 +57,15 @@ function HomeCards() {
               src='images/classroom.jpg'
               text='I Google Classroom hittar du allt studiematerial, nyheter, meddelanden och all annan information.'
               label='Classroom'
+<<<<<<< Updated upstream
               path='https://classroom.google.com'
             />
           </ul>
+=======
+              path='https://classroom.google.com/u/0/h'
+            /> 
+          </ul> 
+>>>>>>> Stashed changes
           <ul className='cards__items'>
             <ExternalHome
               src='images/meets.jpg'
@@ -63,7 +73,7 @@ function HomeCards() {
               label='Google Meet'
               path='https://meet.google.com/'
             />
-            <Home
+            <ExternalHome
               src='images/faq.png'
               text='Om du har några frågor, se vår FAQ-sida.'
               label='FAQ'
@@ -74,8 +84,13 @@ function HomeCards() {
               text='Glöm inte att registrera dina poäng i tid till CSN.
                För andra frågor angående betalningar, kolla deras webbsida.'
               label='CSN'
+<<<<<<< Updated upstream
               path='https://www.csn.se/'
             />
+=======
+              path='https://www.csn.se/' target='_blank' rel='noreferrer'
+            /> 
+>>>>>>> Stashed changes
           </ul>
         </div>
       </div>
