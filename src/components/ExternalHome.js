@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Home(props) {
+
+function ExternalHome(props) {
   return (
     <>
       <li className='cards__item'>
-        <Link className='cards__item__link' to href={props.path}>
+        <a className='cards__item__link' to href={props.path} target='_blank' rel='noopener noreferrer'>
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               src={props.src}
@@ -16,10 +16,10 @@ function Home(props) {
           <div className='cards__item__info'>
             <h5 className='cards__item__text'>{props.text}</h5>
           </div>
-        </Link>
+        </a>
       </li>
     </>
   )
 }
 
-export default Home;
+export default ExternalHome;
