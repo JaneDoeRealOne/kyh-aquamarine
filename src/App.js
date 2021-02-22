@@ -8,7 +8,7 @@ import Educations from './components/pages/Educations';
 import Faq from './components/pages/Faq';
 import Login from './components/pages/Login';
 import Footer from './components/Footer';
-import News from  './components/pages/News';
+import News from './components/pages/News';
 
 
 function App() {
@@ -17,12 +17,11 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Landing} />
-        {/* <Route path='/' exact component={Home} /> */}
+        <Route path='/home' component={Home} />
         <Route path='/educations' component={Educations} />
         <Route path='/faq' component={Faq} />
+        <Route path='/news' component={News} />
         <Route path='/login' component={Login} />
-        <Route path='/home' component={Home}/>
-        <Route path='/news' component={News}/>
       </Switch>
       <Footer />
     </Router>
