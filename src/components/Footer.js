@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../App.css';
 import './Footer.css';
 import Logo from './assets/KYH-logo.png';
@@ -23,29 +22,29 @@ function Footer() {
         </div>
         <div className='social-media-wrapper'>
 
-        <a href="https://www.youtube.com/channel/UCw0LS01KsWOYYRDGjcag_Dg/featured"
-        className="youtube social" target='_blank' rel='noopener noreferrer' >
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
+          <a href="https://www.youtube.com/channel/UCw0LS01KsWOYYRDGjcag_Dg/featured"
+            className="youtube social" target='_blank' rel='noopener noreferrer' >
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
+          </a>
 
-      <a href="https://www.instagram.com/kyh_yrkeshogskola/"
-        className="instagram social" target='_blank' rel='noopener noreferrer' >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>   
+          <a href="https://www.instagram.com/kyh_yrkeshogskola/"
+            className="instagram social" target='_blank' rel='noopener noreferrer' >
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
 
-      <a href="https://www.facebook.com/KYHyrkeshogskola/"
-        className="facebook social" target='_blank' rel='noopener noreferrer' >
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
+          <a href="https://www.facebook.com/KYHyrkeshogskola/"
+            className="facebook social" target='_blank' rel='noopener noreferrer' >
+            <FontAwesomeIcon icon={faFacebook} size="2x" />
+          </a>
 
-      <a href="https://www.linkedin.com/school/kyh/"
-        className="likedin social" target='_blank' rel='noopener noreferrer' >
-        <FontAwesomeIcon icon={faLinkedin} size="2x" />
-      </a>
+          <a href="https://www.linkedin.com/school/kyh/"
+            className="likedin social" target='_blank' rel='noopener noreferrer' >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
         </div>
         <div className='contact-section'>
           <p className='contact-text'>Kontakt</p>
-          <Link href='https://kyh.se/integritetspolicy/' className='policy'>Integritetspolicy</Link>
+          <a href='https://kyh.se/integritetspolicy/' className='policy'>Integritetspolicy</a>
           <span className='copy-text'>&copy; KYH 2021</span>
         </div>
       </div>

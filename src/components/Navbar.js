@@ -43,7 +43,7 @@ function Navbar() {
                 HEM
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/educations'
                 className='nav-links'
@@ -51,8 +51,7 @@ function Navbar() {
               >
                 UTBILDNING
               </Link>
-            </li>
-
+            </li> */}
             <li className='nav-item'>
               <Link
                 to='/faq'

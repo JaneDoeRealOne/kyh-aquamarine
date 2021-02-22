@@ -5,7 +5,7 @@ import './HomeCards.css';
 function HomeCards() {
   return (
     <div className='cards'>
-      <h1>Senaste nytt på KYH</h1>
+      {/* <h1>Senaste nytt på KYH</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -30,13 +30,13 @@ function HomeCards() {
           </ul>
         </div>
        </div>
+ */}
 
-
-       <div className='cards__container'>
-          <br />
-          <h1>Användbar information</h1>
-          <br />
-       <div className='cards__wrapper'>
+      <div className='cards__container'>
+        <br />
+        <h1>Användbar information</h1>
+        <br />
+        <div className='cards__wrapper'>
           <ul className='cards__items'>
             <Home
               src='images/schoolsoft.jpg'
@@ -55,8 +55,8 @@ function HomeCards() {
               text='I Google Classroom hittar du allt studiematerial, nyheter, meddelanden och all annan information.'
               label='Classroom'
               path='/home'
-            /> 
-          </ul> 
+            />
+          </ul>
           <ul className='cards__items'>
             <Home
               src='images/meets.jpg'
@@ -76,7 +76,7 @@ function HomeCards() {
                För andra frågor angående betalningar, kolla deras webbsida.'
               label='CSN'
               path='/home'
-            /> 
+            />
           </ul>
         </div>
       </div>
