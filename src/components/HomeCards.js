@@ -33,9 +33,7 @@ function HomeCards() {
  */}
 
       <div className='cards__container'>
-        <br />
         <h1>Användbar information</h1>
-        <br />
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <Home
