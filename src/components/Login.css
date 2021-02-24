@@ -94,14 +94,7 @@
 
 @media screen and (max-width: 960px) {
   .login--container {
-    /* align-items: center; */
     padding: 40px;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .login--container {
-    /* margin:  */
-    padding: 20px;
+    max-width: 32rem;
   }
 }

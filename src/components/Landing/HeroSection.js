@@ -1,17 +1,16 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import '../../App.css';
 import { Button } from '../Button';
 import './HeroSection.css';
-// import ReactPlayer from "react-player";
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>Välkommen!</h1>
-      <p>Du har blivit antagen till en utbildning på yrkeshögskolan KYH</p>
+      {/* <div className='text-container'> */}
+      <h1 className='hero-heading'>Välkommen!</h1>
+      <h2>Du har blivit antagen till en utbildning på yrkeshögskolan KYH</h2>
+      {/* </div> */}
       <div className='hero-btns'>
-        {/* <Link to='/login'> */}
         <Button
           className='btns'
           buttonstyle='btn--outline'
@@ -24,7 +23,6 @@ function HeroSection() {
             className='btns movie--btn'
             buttonstyle='btn--primary'
             buttonsize='btn--large'
-            onClick={console.log('hey')}
           >
             SE VIDEO <i className='far fa-play-circle' />
           </button>
