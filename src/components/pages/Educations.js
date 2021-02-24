@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import EducationCards from '../EducationCards';
+import EducationCards from '../Education/EducationCards';
 
 export default function Educations() {
   return (

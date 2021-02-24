@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import FaqList from '../FaqList';
+import FaqList from '../FAQ/FaqList';
 
 export default function Faq() {
   return (
