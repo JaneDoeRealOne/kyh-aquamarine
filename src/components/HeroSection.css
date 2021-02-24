@@ -1,5 +1,5 @@
 .hero-container {
-  background-image: linear-gradient(to bottom, rgba(249, 121, 24, 0.79), rgba(252, 225, 208, 0.591));
+  background-image: linear-gradient(to bottom, #f97918c9, #fce1d097);
   height: 90vh;
   width: 100%;
   display: flex;
