@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import '../Login.css';
 import DarkLogo from '../assets/KYH-dark-logo.png';
+import LoginGoogleHooks from'../GoogleAuth/LoginGoogleHooks';
 
 export default function Login() {
   const emailRef = useRef()
@@ -21,6 +22,8 @@ export default function Login() {
           <input type='password' ref={passwordRef} placeholder='Ange ditt lösenord' required></input>
           <button type='submit' className='form--btn'>Logga in</button>
           <a href='/' className='form--link'>Glömt lösenord?</a>
+          <br />
+          <LoginGoogleHooks />
         </div>
       </section>
     </>
