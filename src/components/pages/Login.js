@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import '../Login.css';
 import DarkLogo from '../assets/KYH-dark-logo.png';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import LoginGoogleHooks from'../GoogleAuth/LoginGoogleHooks';
 
 export default function Login() {
   const emailRef = useRef()
@@ -18,14 +17,13 @@ export default function Login() {
           </div>
           <h1 className='form--h1'>Logga in</h1>
           <p>Email</p>
-          {/* <div className='input--wrapper'> */}
-          {/* <i className="far fa-envelope icon"></i> */}
           <input type='email' ref={emailRef} placeholder='Ange din email' required></input>
-          {/* </div> */}
           <p>Lösenord</p>
           <input type='password' ref={passwordRef} placeholder='Ange ditt lösenord' required></input>
           <button type='submit' className='form--btn'>Logga in</button>
           <a href='/' className='form--link'>Glömt lösenord?</a>
+          <br />
+          <LoginGoogleHooks />
         </div>
       </section>
     </>

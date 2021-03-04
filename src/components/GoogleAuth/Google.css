@@ -1,0 +1,36 @@
+/* Hooks button */
+.button-google {
+  cursor: pointer;
+  display: block;
+  font-size: 1.3em;
+  box-sizing: content-box;
+  margin: 20px auto 0px;
+  width: 70%;
+  padding: 15px 20px;
+  border-radius: 24px;
+  border-color: transparent;
+  background-color: rgb(235, 237, 245);
+  /* box-shadow: 0px 16px 60px rgba(78, 79, 114, 0.1); */
+  box-shadow: 0px 16px 60px rgba(4, 14, 214, 0.08);
+  position: relative;
+}
+
+.buttonText {
+  color: #0554d4;
+  font-weight: bolder;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 0px;
+  position: absolute;
+  left: 30px;
+  align-items: center;
+}
+
+.button-google:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}

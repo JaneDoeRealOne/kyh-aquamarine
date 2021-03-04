@@ -12,10 +12,11 @@
     "@testing-library/user-event": "^12.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-google-login": "^5.2.2",
     "react-icons": "^4.2.0",
-    "react-player": "^2.8.2",
+    "react-player": "^2.9.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.4"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
